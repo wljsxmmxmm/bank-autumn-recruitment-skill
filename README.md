@@ -1,6 +1,6 @@
 <div align="center">
 
-# 银行秋招 Skill
+# 秋招 Skills —— 银行篇
 
 **不是模板化 AI 简历打分，而是一套围绕银行秋招的保姆级陪跑系统。**
 
@@ -8,8 +8,10 @@
 
 <p>
   <a href="https://agentskills.io/"><img alt="Agent Skills" src="https://img.shields.io/badge/Agent%20Skills-compatible-blue"></a>
-  <img alt="Use Case" src="https://img.shields.io/badge/use%20case-bank%20campus%20recruitment-green">
-  <img alt="Status" src="https://img.shields.io/badge/status-demo%20ready-yellow">
+  <a href="https://github.com/wljsxmmxmm/bank-autumn-recruitment-skill/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/wljsxmmxmm/bank-autumn-recruitment-skill?style=social"></a>
+  <a href="https://github.com/wljsxmmxmm/bank-autumn-recruitment-skill"><img alt="License" src="https://img.shields.io/github/license/wljsxmmxmm/bank-autumn-recruitment-skill"></a>
+  <img alt="Claude Code" src="https://img.shields.io/badge/Claude%20Code-ready-111111">
+  <img alt="Codex" src="https://img.shields.io/badge/Codex-ready-111111">
 </p>
 
 <p>
@@ -128,15 +130,19 @@ Skill 不把二手信息当结论。
 - 半结构化面试
 - 结构化面试
 
-拿到意向或 Offer 后，会用银行 Offer 的“不可能三角”做决策：
+拿到意向或 Offer 后，Skill 不会只拿“稳定、成长、薪酬”做一个漂亮矩阵。银行 Offer 真正难判断的地方，往往藏在入职后的日常里：
 
-| 维度 | 关注点 |
+| 决策层 | 会追问什么 |
 |---|---|
-| 稳定性 | 银行类型、合同主体、机构层级、轮岗定岗、试用期 |
-| 成长性 | 岗位内容、培训、晋升、是否能积累可迁移能力 |
-| 回报与生活成本 | 固定薪资、绩效、年终、公积金、城市成本、通勤和家庭支持 |
+| 岗位真相 | 是真实业务岗、轮岗池、营销压力岗，还是先进去再分配 |
+| 入职体验 | 同批新人怎么分配，培训是否有效，师傅/团队风格是否稳定 |
+| 生活成本 | 到手收入、房租通勤、城市消费、家庭支持和长期定居可能性 |
+| 成长代价 | 能不能积累可迁移能力，还是只换来稳定但路径越来越窄 |
+| 风险约束 | 合同主体、试用期、KPI、违约金、三方、户口和调岗空间 |
 
-信息不足时，它会先追问合同主体、机构层级、岗位真相、薪酬拆解、KPI 和签约约束，而不是强行排序。
+它会参考公开可获得的真实入职体验、流程分享和岗位反馈，把“看起来体面”的 Offer 拆到更具体的生活场景里：每天做什么、压力从哪里来、钱够不够花、几年后还能不能换路。
+
+如果一个机会表面稳定但岗位内容不透明、营销压力高、城市成本不匹配，Skill 会直接指出风险；不会为了让用户安心而把所有 Offer 都说成“各有优势”。
 
 ## 适合谁
 
@@ -158,7 +164,7 @@ Skill 不把二手信息当结论。
 | 投递过程中 | 今日待办、公告更新、流程动态、周度复盘 |
 | 公告或 JD 出来后 | 岗位选择、岗位版简历策略、网申细节提醒 |
 | 笔面试阶段 | 笔试模块拆解、面试题型准备、复盘建议 |
-| Offer 阶段 | 银行 Offer 不可能三角、风险核验清单、决策矩阵 |
+| Offer 阶段 | 岗位真相拆解、真实入职体验线索、生活成本暴露、风险核验清单、决策矩阵 |
 
 ## 工作流
 
@@ -302,7 +308,7 @@ python3 .agents/skills/bank-autumn-recruitment/scripts/test_generate_tracking_ta
 python3 /path/to/skill-creator/scripts/quick_validate.py .agents/skills/bank-autumn-recruitment
 ```
 
-## 诚实边界
+## 注意事项
 
 这个 Skill 会尽量帮你把银行秋招变得清楚、可执行、可复盘，但它不会做这些事：
 
@@ -313,11 +319,3 @@ python3 /path/to/skill-creator/scripts/quick_validate.py .agents/skills/bank-aut
 - 不把小红书、牛客、社群截图、匿名爆料当作官方事实。
 - 不在信息不足时强行给 Offer 排序。
 - 涉及合同、三方、违约金、户口和法律风险时，只做风险清单和核验问题，不给法律结论。
-
-## Roadmap
-
-- 补全更多主流银行官方招聘入口和年度公告样例。
-- 增强“秋招机会雷达”的今日待办、公告更新、流程动态和周度复盘模板。
-- 增加更多外部表格平台的字段映射和提醒规则。
-- 建立银行岗位 JD 关键词与简历证据的可复用映射库。
-- 将真实咨询案例脱敏后沉淀为判断样本，让策略更贴近学生的实际处境。
