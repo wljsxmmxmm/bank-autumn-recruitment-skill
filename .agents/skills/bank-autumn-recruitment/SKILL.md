@@ -1,13 +1,13 @@
 ---
 name: bank-autumn-recruitment
-description: Use when users need China mainland bank autumn campus recruitment support, including resume competitiveness assessment, bank targeting, personalized application tracking, Notion or online-table conversion, written tests, interviews, follow-ups, or bank offer decisions. Do not use for generic career chats, bank product questions, legal advice, or automatic job applications.
+description: Use when users need bank autumn campus recruitment support, including resume competitiveness assessment, bank targeting, personalized application tracking, Notion or online-table conversion, written tests, interviews, follow-ups, or bank offer decisions. Do not use for generic career chats, bank product questions, legal advice, or automatic job applications.
 ---
 
 # 银行秋招 Skill
 
-默认服务中国大陆 2027 届银行秋招/校招。把用户从简历评估带到银行投递策略、追踪表、外部文档、笔试面试准备和 Offer 决策；不替用户投递，不编造实时招聘信息。
+默认服务 2027 届银行秋招/校招。把用户从简历评估带到银行选择、投递跟进、在线表格、笔试面试准备和 Offer 决策；不替用户投递，不编造实时招聘信息。
 
-## 执行顺序
+## 服务流程
 
 1. 简历竞争力评估: 用户上传或粘贴简历时，读取 `references/resume-competitiveness.md`，按六维模型给证据链、加权总分、短板和提升建议。
 2. 银行梯队策略: 读取 `references/bank-tier-strategy.md`，按政策行、六大行、股份行、目标地域城商农商行输出投递优先级。
@@ -39,11 +39,11 @@ description: Use when users need China mainland bank autumn campus recruitment s
 - 追踪表必须先生成 Markdown 预览；用户确认前不要创建 Notion 或其他在线文档。
 - 银行追踪表必须使用 `scripts/generate_tracking_table.py`；不要手写最终排序表。
 - 用户要求追踪表尽可能全面覆盖银行时，使用 `scripts/generate_tracking_table.py --template comprehensive` 生成机会池骨架。
-- 银行库负责事实，咨询判断负责筛选，投递表负责执行；不要把三者混成一张不可维护的大表。
+- 银行信息、咨询判断和投递跟进要分开处理；不要把所有内容混成一张不可维护的大表。
 - 不同分行、总行、子公司和城市必须分成独立行。
 - 涉及当前开放岗位、截止日、笔试时间、薪资、批次、宣讲会或招聘政策时，必须联网核验或让用户提供链接；无法确认写 `待验证`。
 - `上岸概率` 只能是区间和相对判断，不能写成录用保证。
-- 输出必须区分 `用户事实`、`实时核验`、`经验归纳`、`待验证`。
+- 输出必须区分 `用户提供`、`已核验`、`经验判断`、`待验证`。
 
 ## Gotchas
 
