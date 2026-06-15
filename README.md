@@ -1,0 +1,233 @@
+# 银行秋招 Skill
+
+> 银行秋招不是海投游戏，而是一套“事实库 + 咨询判断 + 执行表 + 持续提醒”的陪跑系统。
+
+[![Agent Skills](https://img.shields.io/badge/Agent%20Skills-compatible-blue)](https://agentskills.io/)
+[![Use Case](https://img.shields.io/badge/use%20case-bank%20campus%20recruitment-green)](#)
+[![Status](https://img.shields.io/badge/status-demo%20ready-yellow)](#)
+
+`银行秋招 Skill` 是一个面向中国大陆 2027 届银行秋招/校招求职者的 Codex Skill。它把职业咨询导师的判断流程沉淀成可复用工作流，覆盖从简历上传、竞争力评估、银行投递策略、个性化投递表、外部在线表格、笔试面试准备，到 Offer 决策的完整链路。
+
+它不替用户自动投递，不编造实时招聘信息，也不把小红书、社群截图或匿名爆料当作官方事实。它的价值在于让银行秋招这件事变得可判断、可执行、可追踪、可复盘。
+
+## 项目定位
+
+这个仓库是一个单独发布的银行秋招 Agent Skill 项目，核心能力包括：
+
+| 模块 | 当前能力 |
+|---|---|
+| 简历竞争力评估 | 按银行 HR 视角做六维评分，输出证据、理由、总分、短板和提升建议 |
+| 银行投递策略 | 区分政策性银行、国有六大行、股份行、城商行/农商行，并结合用户画像筛选 |
+| 银行招聘库 | 维护银行主档案、官方招聘网站、网申入口、年度公告和岗位信息模板 |
+| 个性化投递表 | 从银行库中选机会，由咨询判断生成用户专属投递表 |
+| 外部在线表格 | 将确认后的 Markdown 表转换为 Notion 等在线文档，并保留字段类型和视图 |
+| 自动化提醒 | 截止日提醒、已投递进度信源巡检、官方公告巡检、周复盘 |
+| 公告后简历定制 | 公告/JD 出来后，先选岗位，再做岗位版简历和网申细节 |
+| 笔试面试准备 | 覆盖 EPI/行测、英语、金融经济、银行特色知识、无领导、半结构化、结构化 |
+| Offer 决策 | 用银行 Offer 不可能三角，结合合同主体、机构层级、岗位真相、薪酬拆解和 KPI 做专业判断 |
+
+Skill 主体位于：`.agents/skills/bank-autumn-recruitment`。
+
+## 核心理念
+
+### 银行库负责事实
+
+银行库只维护可核验信息：银行名称、银行类型、总部城市、同类型梯队、官方招聘网站、网申入口、最近一年公告、岗位方向和来源链接。
+
+### 咨询 Skill 负责判断
+
+Skill 根据用户简历、城市偏好、岗位方向、学历背景、实习经历、证书和风险偏好，判断哪些银行值得主攻、哪些适合冲刺、哪些只做观察。
+
+### 投递表负责执行
+
+投递表不是信息堆砌，而是行动工作台：截止时间、状态、简历版本、下一动作、提醒日期、风险备注和复盘记录都要能被持续更新。
+
+## 工作流
+
+```mermaid
+flowchart LR
+    A["上传简历"] --> B["银行竞争力评估"]
+    B --> C["银行库事实匹配"]
+    C --> D["咨询判断与投递策略"]
+    D --> E["Markdown 投递表预览"]
+    E --> F["用户确认"]
+    F --> G["Notion / 在线文档"]
+    G --> H["截止提醒与进度巡检"]
+    H --> I["公告后简历定制"]
+    I --> J["笔试面试准备"]
+    J --> K["Offer 决策"]
+```
+
+## 主要能力
+
+### 1. 简历竞争力评估
+
+按银行 HR 视角做六维评分：
+
+| 维度 | 权重 |
+|---|---:|
+| 学历背景 | 25% |
+| 金融/银行相关实习经历 | 25% |
+| 专业对口度 | 15% |
+| 证书 | 15% |
+| 项目经历 | 10% |
+| 校园经历 | 10% |
+
+政策性银行会更看重学历、稳定动机和组织适配；股份行会更看重实习、业务理解和项目深挖。
+
+### 2. 银行梯队投递策略
+
+默认覆盖：
+
+- 政策性银行：国开行、进出口银行、农发行
+- 国有六大行：工行、农行、中行、建行、交行、邮储
+- 股份制银行：招行、浦发、中信、兴业、光大、民生、平安、广发、华夏、浙商、恒丰等
+- 目标地域城商行/农商行
+
+输出每梯队推荐银行、投递优先级、上岸概率区间、关键时间节点和隐性门槛。
+
+### 3. 个性化投递表
+
+投递表先生成 Markdown 预览，用户确认后再创建到 Notion、腾讯文档、飞书表格、Google Sheets 或 Excel。
+
+核心字段包括：
+
+```text
+银行名称 | 银行类型 | 同类梯队 | 投递优先级 | 推荐岗位方向 | 投递批次 |
+开始时间 | 截止时间 | 投递日期 | 官方招聘网站 | 网申入口 | 公告链接 |
+简历版本 | 投递状态 | 笔试 | 一面 | 二面 | 三面/终面 |
+推荐理由 | 主要风险 | 下一动作 | 提醒日期 | 备注
+```
+
+确定性排序和表格生成必须交给脚本：
+
+```bash
+python3 .agents/skills/bank-autumn-recruitment/scripts/generate_tracking_table.py --template comprehensive --output tracking-preview.md
+```
+
+### 4. 外部文档与提醒
+
+Notion 转换会保留字段类型：
+
+- `银行名称`: Title
+- `投递优先级/投递状态/银行类型`: Select
+- `推荐岗位方向`: Multi-select
+- `截止时间/投递日期/提醒日期`: Date
+- `官方招聘网站/网申入口/公告链接`: URL
+
+创建外部表后，建议配置 4 类自动化：
+
+| 自动化 | 作用 |
+|---|---|
+| 截止日提醒 | 扫描 7/3/1 天内截止岗位 |
+| 已投递进度巡检 | 搜索官方和社区信源，提醒是否已有笔面试通知线索 |
+| 官方公告巡检 | 新公告出现后触发岗位选择和简历定制 |
+| 周复盘与 Offer 决策 | 汇总进展，调整投递策略，处理 Offer 选择 |
+
+### 5. 公告后简历定制
+
+公告出来后，不是立刻“润色整份简历”，而是：
+
+1. 判断岗位是否值得投
+2. 识别岗位真实属性
+3. 从用户经历中选择最匹配证据
+4. 生成岗位版简历策略
+5. 提醒网申志愿顺序、自我评价、开放题和材料细节
+
+### 6. 银行 Offer 决策
+
+Offer 决策采用“不可能三角”：
+
+| 维度 | 关注点 |
+|---|---|
+| 稳定性 | 银行类型、合同主体、机构层级、轮岗定岗、试用期 |
+| 成长性 | 岗位内容、培训、晋升、是否能积累可迁移能力 |
+| 回报与生活成本 | 固定薪资、绩效、年终、公积金、城市成本、通勤和家庭支持 |
+
+在信息不足时，Skill 会先追问合同主体、机构层级、岗位真相、薪酬拆解、KPI、签约约束，而不是直接排序。
+
+## 仓库结构
+
+```text
+.agents/
+└── skills/
+    └── bank-autumn-recruitment/
+        ├── SKILL.md
+        ├── agents/
+        │   └── openai.yaml
+        ├── assets/
+        │   ├── bank-autumn-workflow-sample.md
+        │   └── personalized-bank-tracking-sample.md
+        ├── evals/
+        │   ├── quality-cases.md
+        │   └── routing-cases.md
+        ├── references/
+        │   ├── resume-competitiveness.md
+        │   ├── bank-tier-strategy.md
+        │   ├── application-tracker.md
+        │   ├── bank-recruitment-library-template.md
+        │   ├── external-doc-conversion-rules.md
+        │   ├── automation-playbook.md
+        │   ├── announcement-resume-tailoring.md
+        │   ├── exam-interview-guidance.md
+        │   └── offer-decision-framework.md
+        └── scripts/
+            ├── generate_tracking_table.py
+            └── test_generate_tracking_table.py
+```
+
+## 使用方式
+
+可以这样对 Codex 说：
+
+```text
+我上传了简历，帮我评估银行秋招竞争力，并生成投递梯队和追踪表预览。
+```
+
+```text
+我是 2027 届，想投银行校招，从简历到 Offer 做一个陪跑计划。
+```
+
+```text
+把这些银行岗位生成 Markdown 追踪表，确认后再放到我的 Notion 里。
+```
+
+```text
+这个银行公告出来了，帮我选岗位、改简历和准备网申。
+```
+
+```text
+我拿到两个银行 Offer，帮我用不可能三角做决策。
+```
+
+## 安装
+
+把本仓库放在支持 Agent Skills 的工作区中，保持 `.agents/skills/bank-autumn-recruitment` 目录结构即可。
+
+如果只想复制 Skill，可以单独复制：
+
+```text
+.agents/skills/bank-autumn-recruitment
+```
+
+## 质量验证
+
+```bash
+python3 /path/to/skill-creator/scripts/quick_validate.py .agents/skills/bank-autumn-recruitment
+python3 .agents/skills/bank-autumn-recruitment/scripts/test_generate_tracking_table.py
+```
+
+## 诚实边界
+
+- 不替用户自动投递。
+- 不承诺录用或“上岸”。
+- 不编造当年公告、截止日期、薪资、笔试时间或岗位开放状态。
+- 不把二手整理表、小红书、社群截图当作官方事实。
+- 涉及合同、三方、违约金、户口和法律风险时，只做风险清单和核验问题，不给法律结论。
+
+## Roadmap
+
+- 补全更多主流银行官方招聘入口和年度公告。
+- 将职业咨询导师真实咨询记录脱敏后沉淀为判断样本。
+- 增加更多外部表格平台的字段映射和提醒规则。
+- 建立银行岗位 JD 关键词与简历证据的可复用映射库。

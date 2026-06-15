@@ -1,0 +1,3 @@
+display_name: 银行秋招 Skill
+short_description: 从简历评估、银行投递策略到追踪表、笔面试和 Offer 决策的银行秋招陪跑
+default_prompt: 我是 2027 届，想投银行秋招。我会上传简历，请先评估竞争力，再生成银行梯队投递策略和 Markdown 追踪表预览，等我确认后再创建到 Notion 或其他在线文档。
