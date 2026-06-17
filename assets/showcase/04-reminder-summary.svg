@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <rect width="960" height="540" fill="#f8fafc"/>
+  <rect x="40" y="36" width="880" height="468" rx="18" fill="#fff" stroke="#d9dee8"/>
+  <text x="72" y="88" font-family="Arial, 'PingFang SC', sans-serif" font-size="30" font-weight="700" fill="#111827">对话内提醒摘要</text>
+  <text x="72" y="124" font-family="Arial, 'PingFang SC', sans-serif" font-size="17" fill="#667085">每天从表格读出真正需要行动的事项，不直接写回或发送</text>
+  <g font-family="Arial, 'PingFang SC', sans-serif" font-size="16" fill="#344054">
+    <rect x="72" y="160" width="380" height="116" rx="12" fill="#fff7ed" stroke="#fed7aa"/>
+    <text x="96" y="194" font-weight="700" fill="#c2410c">截止日提醒</text>
+    <text x="96" y="226">上海银行：剩 3 天</text>
+    <text x="96" y="254">建设银行：今日必须处理</text>
+    <rect x="508" y="160" width="380" height="116" rx="12" fill="#eff6ff" stroke="#bfdbfe"/>
+    <text x="532" y="194" font-weight="700" fill="#1d4ed8">网申陪跑</text>
+    <text x="532" y="226">简历版本：银行业务版</text>
+    <text x="532" y="254">风险：确认营销/KPI 属性</text>
+    <rect x="72" y="310" width="380" height="116" rx="12" fill="#f5f3ff" stroke="#ddd6fe"/>
+    <text x="96" y="344" font-weight="700" fill="#6d28d9">流程线索巡检</text>
+    <text x="96" y="376">交通银行：笔试题型弱线索</text>
+    <text x="96" y="404">宁波银行：一面通知查收</text>
+    <rect x="508" y="310" width="380" height="116" rx="12" fill="#f0fdf4" stroke="#bbf7d0"/>
+    <text x="532" y="344" font-weight="700" fill="#15803d">周复盘</text>
+    <text x="532" y="376">新增 6｜已投 3｜流程中 5</text>
+    <text x="532" y="404">下周优先 P0/P1</text>
+  </g>
+</svg>

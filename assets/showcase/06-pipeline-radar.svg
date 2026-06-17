@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <rect width="960" height="540" fill="#f8fafc"/>
+  <rect x="40" y="36" width="880" height="468" rx="18" fill="#fff" stroke="#d9dee8"/>
+  <text x="72" y="88" font-family="Arial, 'PingFang SC', sans-serif" font-size="30" font-weight="700" fill="#111827">流程线索雷达</text>
+  <text x="72" y="124" font-family="Arial, 'PingFang SC', sans-serif" font-size="17" fill="#667085">对已投、测评、笔试、面试中的岗位，只提示可行动线索</text>
+  <g font-family="Arial, 'PingFang SC', sans-serif" font-size="15">
+    <rect x="72" y="160" width="816" height="52" rx="10" fill="#f5f3ff"/>
+    <text x="96" y="193" font-weight="700" fill="#6d28d9">交通银行金融市场｜笔试</text>
+    <text x="358" y="193" fill="#344054">查邮箱/短信/站内信；关注同批次题型弱线索</text>
+    <rect x="72" y="232" width="816" height="52" rx="10" fill="#eff6ff"/>
+    <text x="96" y="265" font-weight="700" fill="#1d4ed8">宁波银行杭州分行｜一面</text>
+    <text x="358" y="265" fill="#344054">准备半结构化、城市稳定性、银行实习深挖</text>
+    <rect x="72" y="304" width="816" height="52" rx="10" fill="#ecfeff"/>
+    <text x="96" y="337" font-weight="700" fill="#0e7490">浦发银行上海分行｜二面</text>
+    <text x="358" y="337" fill="#344054">准备对公业务案例、客户场景和压力问题</text>
+    <rect x="72" y="392" width="816" height="64" rx="12" fill="#fff7ed" stroke="#fed7aa"/>
+    <text x="96" y="422" font-weight="700" fill="#c2410c">边界</text>
+    <text x="152" y="422" fill="#344054">社区帖子只作为弱线索，不判断个人结果；官方通知优先。</text>
+  </g>
+</svg>

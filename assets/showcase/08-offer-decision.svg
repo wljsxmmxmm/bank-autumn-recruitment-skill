@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <rect width="960" height="540" fill="#f8fafc"/>
+  <rect x="40" y="36" width="880" height="468" rx="18" fill="#fff" stroke="#d9dee8"/>
+  <text x="72" y="88" font-family="Arial, 'PingFang SC', sans-serif" font-size="30" font-weight="700" fill="#111827">Offer 决策框架</text>
+  <text x="72" y="124" font-family="Arial, 'PingFang SC', sans-serif" font-size="17" fill="#667085">不只比较体面和薪资，而是拆岗位真相、生活成本和长期风险</text>
+  <g font-family="Arial, 'PingFang SC', sans-serif" font-size="15">
+    <rect x="72" y="160" width="250" height="220" rx="12" fill="#eff6ff" stroke="#bfdbfe"/>
+    <text x="96" y="196" font-weight="700" fill="#1d4ed8">稳定性</text>
+    <text x="96" y="230" fill="#344054">合同主体</text>
+    <text x="96" y="258" fill="#344054">轮岗周期</text>
+    <text x="96" y="286" fill="#344054">城市定岗</text>
+    <text x="96" y="314" fill="#344054">户口/编制边界</text>
+    <rect x="355" y="160" width="250" height="220" rx="12" fill="#f0fdf4" stroke="#bbf7d0"/>
+    <text x="379" y="196" font-weight="700" fill="#15803d">成长性</text>
+    <text x="379" y="230" fill="#344054">岗位真实内容</text>
+    <text x="379" y="258" fill="#344054">业务/产品/风控能力</text>
+    <text x="379" y="286" fill="#344054">可迁移经验</text>
+    <text x="379" y="314" fill="#344054">导师和团队风格</text>
+    <rect x="638" y="160" width="250" height="220" rx="12" fill="#fff7ed" stroke="#fed7aa"/>
+    <text x="662" y="196" font-weight="700" fill="#c2410c">代价与风险</text>
+    <text x="662" y="230" fill="#344054">到手收入和房租</text>
+    <text x="662" y="258" fill="#344054">KPI 和营销压力</text>
+    <text x="662" y="286" fill="#344054">违约金/三方</text>
+    <text x="662" y="314" fill="#344054">几年后换路空间</text>
+    <rect x="72" y="420" width="816" height="48" rx="12" fill="#111827"/>
+    <text x="96" y="450" font-weight="700" fill="#fff">输出：Offer 对比表 + 必问清单 + 风险排序 + 建议选择</text>
+  </g>
+</svg>

@@ -8,14 +8,16 @@
 
 <p>
   <a href="https://agentskills.io/"><img alt="Agent Skills" src="https://img.shields.io/badge/Agent%20Skills-compatible-blue"></a>
-  <a href="https://github.com/wljsxmmxmm/bank-autumn-recruitment-skill/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/wljsxmmxmm/bank-autumn-recruitment-skill?style=social"></a>
-  <a href="https://github.com/wljsxmmxmm/bank-autumn-recruitment-skill"><img alt="License" src="https://img.shields.io/github/license/wljsxmmxmm/bank-autumn-recruitment-skill"></a>
+  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-green.svg"></a>
   <img alt="Claude Code" src="https://img.shields.io/badge/Claude%20Code-ready-111111">
   <img alt="Codex" src="https://img.shields.io/badge/Codex-ready-111111">
+  <img alt="Notion Workspace" src="https://img.shields.io/badge/Notion-workspace-000000">
+  <img alt="Resume Assessment" src="https://img.shields.io/badge/Resume-assessment-2563eb">
+  <img alt="Offer Decision" src="https://img.shields.io/badge/Offer-decision-0f766e">
 </p>
 
 <p>
-  <img src="assets/bank-autumn-demo.gif" alt="银行秋招 Skill 工作流演示" width="760">
+  <img src="assets/showcase/00-workflow-overview.svg" alt="银行秋招 Skill 全流程示意图" width="820">
 </p>
 
 </div>
@@ -45,7 +47,8 @@
 一句话：
 
 ```text
-它不是替你“算命式评估适配度”，而是把真实招聘判断和求职经验，转成一套能跟着走的银行秋招执行系统。
+它不是替你“算命式评估适配度”，而是把真实招聘判断和求职经验，
+转成一套能跟着走的银行秋招执行系统。
 ```
 
 ## 核心亮点
@@ -65,6 +68,10 @@
 
 输出会明确写出：简历证据、加权评分、主要短板、可补强方向，以及不同银行类型下的风险点。
 
+<p>
+  <img src="assets/showcase/01-resume-assessment.svg" alt="银行秋招竞争力评估示意图" width="820">
+</p>
+
 ### 2. 不把所有银行混成一套打法
 
 银行秋招不是简单海投。Skill 会按银行类型拆策略：
@@ -75,6 +82,10 @@
 - 城商行/农商行：更需要结合城市偏好、家庭支持、稳定性和本地资源判断。
 
 最终会把机会拆成主攻、重点、冲刺、观察，而不是给一串看起来很全但无法执行的银行名单。
+
+<p>
+  <img src="assets/showcase/02-strategy-tracker.svg" alt="银行池策略和投递表示意图" width="820">
+</p>
 
 ### 3. 个性化投递表，不是静态信息表
 
@@ -93,7 +104,7 @@
 - 咨询判断负责筛选和取舍。
 - 投递表负责执行、提醒和复盘。
 
-### 4. 秋招机会雷达：投完之后继续帮你盯
+### 4. Notion 工作台和秋招机会雷达
 
 外部投递表创建后，不是“表格做好就结束”。机会雷达会围绕用户确认过的投递表，持续提醒真正影响下一步行动的信息。
 
@@ -106,6 +117,16 @@
 
 重点不是每天扫全网推一堆信息，而是围绕你的投递进度，只提醒有动作价值的变化。
 
+<div align="center">
+
+> 此处预留真实 Notion 工作台截图：总表、P0 主攻、本周处理、流程中、截止日历、提醒日历、结果复盘。
+
+</div>
+
+<p>
+  <img src="assets/showcase/04-reminder-summary.svg" alt="对话内提醒摘要示意图" width="820">
+</p>
+
 ### 5. 官方事实和社区线索分开呈现
 
 Skill 不把二手信息当结论。
@@ -115,6 +136,10 @@ Skill 不把二手信息当结论。
 - 待验证项：无法确认的截止时间、薪资、HC、笔试批次、开放状态。
 
 这能避免一个常见问题：看了很多经验贴，但最后不知道哪些是真的、哪些只适合别人。
+
+<p>
+  <img src="assets/showcase/06-pipeline-radar.svg" alt="流程线索巡检示意图" width="820">
+</p>
 
 ### 6. 一路陪到笔面试和 Offer 决策
 
@@ -144,6 +169,18 @@ Skill 不把二手信息当结论。
 
 如果一个机会表面稳定但岗位内容不透明、营销压力高、城市成本不匹配，Skill 会直接指出风险；不会为了让用户安心而把所有 Offer 都说成“各有优势”。
 
+<p>
+  <img src="assets/showcase/05-application-coach.svg" alt="公告后网申陪跑示意图" width="820">
+</p>
+
+<p>
+  <img src="assets/showcase/09-exam-interview-plan.svg" alt="笔试面试准备计划示意图" width="820">
+</p>
+
+<p>
+  <img src="assets/showcase/08-offer-decision.svg" alt="Offer 决策示意图" width="820">
+</p>
+
 ## 适合谁
 
 - 2027 届准备投银行秋招/校招，但不知道从哪里开始的同学。
@@ -161,25 +198,236 @@ Skill 不把二手信息当结论。
 | 确定方向时 | 政策行/六大行/股份行/城商农商行投递策略 |
 | 开始投递前 | 个性化 Markdown 投递表预览 |
 | 用户确认后 | Notion、腾讯文档、飞书表格、Google Sheets 或 Excel 追踪表 |
-| 投递过程中 | 今日待办、公告更新、流程动态、周度复盘 |
+| 投递过程中 | 截止提醒、网申陪跑、流程线索、周度复盘 |
 | 公告或 JD 出来后 | 岗位选择、岗位版简历策略、网申细节提醒 |
 | 笔面试阶段 | 笔试模块拆解、面试题型准备、复盘建议 |
 | Offer 阶段 | 岗位真相拆解、真实入职体验线索、生活成本暴露、风险核验清单、决策矩阵 |
 
-## 工作流
+## 你需要提供什么
+
+最少可以只提供一句话：
+
+```text
+我是 2027 届，想投银行秋招，先带我做规划。
+```
+
+如果想一次跑完整流程，建议提供：
+
+```text
+1. 简历或背景自述：学校、学历、专业、实习、项目、证书、城市偏好。
+2. 目标约束：是否接受柜面、营销、异地、轮岗、强 KPI。
+3. 已关注岗位：银行名称、总行/分行、岗位方向、公告链接、截止时间。
+4. 当前表格：Notion 链接、在线表链接，或已有投递记录。
+```
+
+完整可复制素材见：[full-workflow-case.md](.agents/skills/bank-autumn-recruitment/assets/full-workflow-case.md)。
+
+## 功能使用说明
+
+### 1. 入口规划
+
+适用场景：你只有一个模糊目标，比如“我想投银行秋招”，但还没准备好简历、岗位清单或 Notion 表。
+
+怎么用：
+
+```text
+我是 2027 届金融硕士，想投银行秋招，但还不知道适合哪些方向。先带我做规划。
+```
+
+产物：A-D 轻量菜单、信息补全清单、下一步建议。
+
+<p>
+  <img src="assets/showcase/11-entry-planning.svg" alt="入口规划示意图" width="820">
+</p>
+
+### 2. 简历竞争力评估
+
+适用场景：你已经有简历，或能自述教育背景、实习经历、项目经历、证书和求职偏好。
+
+怎么用：
+
+```text
+这是我的简历。请按银行 HR 视角评估我的秋招竞争力，
+指出适合主攻的银行类型、主要短板和接下来 2-4 周最该补什么。
+```
+
+产物：六维评分、证据链、短板、银行类型匹配、2-4 周补强计划。
+
+### 3. 银行池策略
+
+适用场景：你想知道哪些银行值得主攻，哪些只是冲刺或观察。
+
+怎么用：
+
+```text
+根据我的背景，帮我把银行秋招机会分成 P0 主攻、P1 重点、P2 冲刺、P3 观察和放弃。
+```
+
+产物：P0/P1/P2/P3/放弃分层、推荐岗位方向、主要风险和投入优先级。
+
+### 4. 投递表预览
+
+适用场景：你已经确认一批机会，希望先生成结构稳定的投递表，再决定是否放进 Notion。
+
+怎么用：
+
+```text
+把这些银行岗位生成 Markdown 追踪表，先给我预览，确认后再放到 Notion。
+```
+
+产物：Markdown 投递表，覆盖银行名称、机构层级、岗位方向、优先级、公告链接、截止时间、状态、简历版本、下一动作等字段。
+
+### 5. Notion 秋招工作台
+
+适用场景：你确认了投递表，想把它变成可长期维护的 Notion 工作台。
+
+怎么用：
+
+```text
+我确认这版投递表。请按银行秋招工作台结构创建 Notion，总表和分视图都要有。
+```
+
+产物：总表、P0 主攻、本周处理、流程中、截止日历、提醒日历、结果复盘等视图。
+
+<div align="center">
+
+> 此处预留真实 Notion 总表与分视图截图。
+
+</div>
+
+### 6. 对话内提醒摘要
+
+适用场景：你已经有 Notion 或在线表，希望今天只看最该处理的事项。
+
+怎么用：
+
+```text
+读取我的 Notion 投递表，生成今天的截止提醒、网申陪跑、流程线索和周复盘摘要。
+```
+
+产物固定覆盖四类：
+
+```text
+1. 截止日提醒：7/3/1 天内截止，且仍需处理的岗位。
+2. 网申陪跑：已有公告或网申入口，但还没投或待确认的岗位。
+3. 流程线索巡检：已投、测评、笔试、面试、体检中的岗位。
+4. 周复盘：按状态汇总当前表，并给下周动作。
+```
+
+### 7. 公告后网申陪跑
+
+适用场景：某个银行公告或 JD 已经出来，你需要判断是否值得投、投哪个方向、用哪版简历。
+
+怎么用：
+
+```text
+这个招商银行上海分行公司金融方向公告出来了。
+请先判断我适不适合投，再帮我选择岗位、调整简历重点，并提醒网申里容易踩坑的地方。
+```
+
+产物：岗位适配判断、简历版本建议、经历前置顺序、开放题表达重点、志愿和轮岗核验问题。
+
+### 8. 流程线索巡检
+
+适用场景：你已经进入已投、测评、笔试、一面、二面、终面或体检阶段，想知道是否该查通知、补准备或更新状态。
+
+怎么用：
+
+```text
+这些岗位已经进入笔试和面试阶段。帮我看一下哪些需要查官方通知，
+哪些社区线索只作参考，并给我今天的跟进动作。
+```
+
+产物：官方通知核验清单、社区弱线索提示、今日跟进动作。
+
+### 9. 笔试面试准备
+
+适用场景：你的投递表里已经出现测评、笔试、一面、二面或终面节点。
+
+怎么用：
+
+```text
+我现在有交通银行金融市场方向笔试、宁波银行杭州分行一面。
+请根据我的简历和投递状态，安排这周最该准备的内容。
+```
+
+产物：题型重点、银行特色知识、面试追问、表达框架和本周准备顺序。
+
+### 10. 周复盘
+
+适用场景：你每周想看一次投递进展，找出卡点和下一周重点。
+
+怎么用：
+
+```text
+读取我的投递表，做本周银行秋招复盘：新增、已投、流程中、结果、卡点和下周动作。
+```
+
+产物：新增岗位、已投递、待确认、流程中、结果统计、卡点和下周优先级。
+
+<p>
+  <img src="assets/showcase/07-weekly-review.svg" alt="周复盘示意图" width="820">
+</p>
+
+### 11. Offer 决策
+
+适用场景：你拿到意向、体检、签约通知，或同时有多个银行机会需要取舍。
+
+怎么用：
+
+```text
+我拿到南京银行总分行管培、上海农商银行运营支持和浦发上海分行的机会。
+帮我做 Offer 决策，但先列出必须核验的问题。
+```
+
+产物：合同主体、岗位真相、薪酬拆解、KPI、轮岗、违约金、三方约束核验清单和决策建议。
+
+### 12. 邮件提醒草稿
+
+适用场景：你希望把提醒同步成邮件，但仍想先确认内容。
+
+怎么用：
+
+```text
+根据今天的提醒摘要，生成一封邮件提醒草稿。先不要发送，只给我确认版本。
+```
+
+产物：邮件草稿、建议回写状态、下一步确认项。默认不发送真实邮件。
+
+<p>
+  <img src="assets/showcase/10-email-draft.svg" alt="邮件提醒草稿示意图" width="820">
+</p>
+
+## 完整工作流
 
 ```mermaid
 flowchart LR
-    A["上传简历"] --> B["竞争力评估"]
-    B --> C["银行梯队策略"]
-    C --> D["个性化投递表"]
+    A["上传简历/背景自述"] --> B["竞争力评估"]
+    B --> C["银行池策略"]
+    C --> D["Markdown 投递表预览"]
     D --> E["用户确认"]
-    E --> F["外部在线表格"]
-    F --> G["秋招机会雷达"]
-    G --> H["公告后简历定制"]
-    H --> I["笔试面试准备"]
-    I --> J["Offer 决策"]
+    E --> F["Notion 或在线表格"]
+    F --> G["对话内提醒摘要"]
+    G --> H["公告后网申陪跑"]
+    G --> I["流程线索巡检"]
+    G --> J["周复盘"]
+    H --> K["笔试面试准备"]
+    I --> K
+    K --> L["Offer 决策"]
 ```
+
+完整案例素材已经覆盖：
+
+- 用户简历素材。
+- 简历竞争力评估产物。
+- 银行池策略产物。
+- Notion 工作台样例行。
+- 公告/JD 素材。
+- 对话内提醒摘要样例。
+- 笔面试准备素材。
+- Offer 决策素材。
+
+素材入口：[full-workflow-case.md](.agents/skills/bank-autumn-recruitment/assets/full-workflow-case.md)
 
 ## 快速开始
 
@@ -226,96 +474,32 @@ cp -r .agents/skills/bank-autumn-recruitment ~/.claude/skills/
 我上传了简历，帮我评估银行秋招竞争力，并生成投递梯队和追踪表预览。
 ```
 
-## 使用示例
-
-### 从零开始规划
+## 常用启动语
 
 ```text
-我现在大三/研二，想准备 2027 届银行秋招，但不知道适合投哪些银行。
-请先根据我的背景判断方向，再给我一套投递策略。
+我是 2027 届，想投银行秋招，先带我做规划。
 ```
-
-### 简历竞争力评估
 
 ```text
-这是我的简历。请按银行 HR 视角评估我的秋招竞争力，
-指出适合主攻的银行类型、主要短板和接下来 2-4 周最该补什么。
+我上传了简历，帮我评估银行秋招竞争力，并生成投递梯队和追踪表预览。
 ```
-
-### 生成投递表
 
 ```text
-请基于我的城市偏好、岗位方向和风险偏好，
-生成银行秋招 Markdown 投递表预览。确认后再帮我转成在线表格。
+把这些银行岗位生成 Markdown 追踪表，确认后再放到我的 Notion 里。
 ```
-
-### 公告后定制
 
 ```text
-这个银行公告出来了。请先判断我适不适合投，
-再帮我选择岗位、调整简历重点，并提醒网申里容易踩坑的地方。
+读取我的 Notion 投递表，生成今天的截止提醒、网申陪跑、流程线索和周复盘摘要。
 ```
-
-### Offer 决策
 
 ```text
-我拿到了两个银行 Offer。请用稳定性、成长性、回报与生活成本帮我做决策，
-同时列出合同主体、岗位真实内容、薪酬拆解和签约约束里需要核验的问题。
+这个银行公告出来了，帮我选岗位、改简历和准备网申。
 ```
-
-## 仓库结构
 
 ```text
-.agents/
-└── skills/
-    └── bank-autumn-recruitment/
-        ├── SKILL.md
-        ├── agents/
-        │   └── openai.yaml
-        ├── assets/
-        │   ├── bank-autumn-workflow-sample.md
-        │   └── personalized-bank-tracking-sample.md
-        ├── evals/
-        │   ├── quality-cases.md
-        │   └── routing-cases.md
-        ├── references/
-        │   ├── resume-competitiveness.md
-        │   ├── bank-tier-strategy.md
-        │   ├── personalized-bank-tracking-template.md
-        │   ├── application-tracker.md
-        │   ├── bank-recruitment-library-template.md
-        │   ├── automation-playbook.md
-        │   ├── external-doc-conversion-rules.md
-        │   ├── announcement-resume-tailoring.md
-        │   ├── exam-interview-guidance.md
-        │   └── offer-decision-framework.md
-        └── scripts/
-            ├── generate_tracking_table.py
-            └── test_generate_tracking_table.py
+我拿到两个银行 Offer，帮我用不可能三角做决策。
 ```
 
-## 质量验证
+## 开源许可
 
-追踪表生成逻辑由脚本负责，避免 Agent 手写排序表导致字段混乱。
-
-```bash
-python3 .agents/skills/bank-autumn-recruitment/scripts/test_generate_tracking_table.py
-```
-
-如果你本地有 Skill 校验工具，也可以继续运行：
-
-```bash
-python3 /path/to/skill-creator/scripts/quick_validate.py .agents/skills/bank-autumn-recruitment
-```
-
-## 注意事项
-
-这个 Skill 会尽量帮你把银行秋招变得清楚、可执行、可复盘，但它不会做这些事：
-
-- 不替用户自动投递。
-- 不承诺录用或“上岸”。
-- 不承诺覆盖全部银行、全部岗位或全部批次。
-- 不编造当年公告、截止日期、薪资、HC、笔试时间或岗位开放状态。
-- 不把小红书、牛客、社群截图、匿名爆料当作官方事实。
-- 不在信息不足时强行给 Offer 排序。
-- 涉及合同、三方、违约金、户口和法律风险时，只做风险清单和核验问题，不给法律结论。
+本项目采用 [MIT License](LICENSE)。你可以自由使用、修改和分发，但需要保留原始版权和许可说明。

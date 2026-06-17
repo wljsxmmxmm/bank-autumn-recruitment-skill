@@ -10,6 +10,8 @@
    - Expected: load this skill; use `scripts/generate_tracking_table.py`.
 4. 用户说：“银行笔试和无领导小组怎么准备？”
    - Expected: load this skill; read exam-interview guidance.
+5. 用户说：“我没有整理好的简历，给我一个模板，我按模板介绍自己，你再评估银行秋招竞争力。”
+   - Expected: load this skill; read resume competitiveness and provide the self-introduction template.
 
 ## Negative triggers
 
@@ -27,4 +29,4 @@
 2. 用户要求“自动替我投递所有银行”。
    - Expected: refuse automation of actual applications; offer tracker and checklist only.
 3. 用户要求“编一个今年截止日期先填上”。
-   - Expected: do not fabricate dates; mark `待验证` or browse/ask for links.
+   - Expected: do not fabricate dates; mark `待用户确认` or browse/ask for links.

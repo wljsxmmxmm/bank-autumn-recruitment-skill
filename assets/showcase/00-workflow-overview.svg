@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <rect width="960" height="540" fill="#f7f8fb"/>
+  <rect x="40" y="36" width="880" height="468" rx="18" fill="#ffffff" stroke="#d9dee8"/>
+  <text x="72" y="88" font-family="Arial, 'PingFang SC', sans-serif" font-size="30" font-weight="700" fill="#111827">银行秋招陪跑全流程</text>
+  <text x="72" y="124" font-family="Arial, 'PingFang SC', sans-serif" font-size="17" fill="#667085">从简历判断到 Notion 工作台，再到提醒、笔面试和 Offer 决策</text>
+  <g font-family="Arial, 'PingFang SC', sans-serif">
+    <g transform="translate(72 166)">
+      <rect width="166" height="76" rx="14" fill="#eef2ff" stroke="#c7d2fe"/>
+      <text x="20" y="34" font-size="17" font-weight="700" fill="#3730a3">简历/背景</text>
+      <text x="20" y="58" font-size="14" fill="#4f46e5">学校 实习 偏好</text>
+    </g>
+    <path d="M248 204 H302" stroke="#94a3b8" stroke-width="3" stroke-linecap="round"/>
+    <g transform="translate(312 166)">
+      <rect width="166" height="76" rx="14" fill="#eff6ff" stroke="#bfdbfe"/>
+      <text x="20" y="34" font-size="17" font-weight="700" fill="#1d4ed8">竞争力评估</text>
+      <text x="20" y="58" font-size="14" fill="#2563eb">证据 短板 补强</text>
+    </g>
+    <path d="M488 204 H542" stroke="#94a3b8" stroke-width="3" stroke-linecap="round"/>
+    <g transform="translate(552 166)">
+      <rect width="166" height="76" rx="14" fill="#f0fdf4" stroke="#bbf7d0"/>
+      <text x="20" y="34" font-size="17" font-weight="700" fill="#166534">银行池策略</text>
+      <text x="20" y="58" font-size="14" fill="#15803d">P0/P1/P2/P3</text>
+    </g>
+    <g transform="translate(72 292)">
+      <rect width="166" height="76" rx="14" fill="#fff7ed" stroke="#fed7aa"/>
+      <text x="20" y="34" font-size="17" font-weight="700" fill="#c2410c">投递表预览</text>
+      <text x="20" y="58" font-size="14" fill="#ea580c">字段 排序 状态</text>
+    </g>
+    <path d="M248 330 H302" stroke="#94a3b8" stroke-width="3" stroke-linecap="round"/>
+    <g transform="translate(312 292)">
+      <rect width="166" height="76" rx="14" fill="#f8fafc" stroke="#cbd5e1"/>
+      <text x="20" y="34" font-size="17" font-weight="700" fill="#334155">Notion 工作台</text>
+      <text x="20" y="58" font-size="14" fill="#475569">总表 分视图 日历</text>
+    </g>
+    <path d="M488 330 H542" stroke="#94a3b8" stroke-width="3" stroke-linecap="round"/>
+    <g transform="translate(552 292)">
+      <rect width="166" height="76" rx="14" fill="#fef2f2" stroke="#fecaca"/>
+      <text x="20" y="34" font-size="17" font-weight="700" fill="#b91c1c">提醒摘要</text>
+      <text x="20" y="58" font-size="14" fill="#dc2626">截止 网申 复盘</text>
+    </g>
+    <g transform="translate(742 166)">
+      <rect width="146" height="76" rx="14" fill="#fafafa" stroke="#d4d4d8"/>
+      <text x="18" y="34" font-size="17" font-weight="700" fill="#18181b">后续陪跑</text>
+      <text x="18" y="58" font-size="14" fill="#3f3f46">网申 笔面 Offer</text>
+    </g>
+    <g transform="translate(742 292)">
+      <rect width="146" height="76" rx="14" fill="#f5f3ff" stroke="#ddd6fe"/>
+      <text x="18" y="34" font-size="17" font-weight="700" fill="#6d28d9">持续复盘</text>
+      <text x="18" y="58" font-size="14" fill="#7c3aed">动作 卡点 结果</text>
+    </g>
+  </g>
+  <rect x="72" y="424" width="816" height="44" rx="12" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="94" y="452" font-family="Arial, 'PingFang SC', sans-serif" font-size="15" fill="#475569">核心原则：先预览再写入，先核验再结论，先摘要再触发外部动作。</text>
+</svg>

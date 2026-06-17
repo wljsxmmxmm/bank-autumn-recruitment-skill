@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <rect width="960" height="540" fill="#f7f8fb"/>
+  <rect x="40" y="36" width="880" height="468" rx="18" fill="#ffffff" stroke="#d9dee8"/>
+  <text x="72" y="88" font-family="Arial, 'PingFang SC', sans-serif" font-size="30" font-weight="700" fill="#111827">邮件提醒草稿</text>
+  <text x="72" y="124" font-family="Arial, 'PingFang SC', sans-serif" font-size="17" fill="#667085">先生成可确认草稿，不默认发送真实邮件或写回外部系统</text>
+  <g font-family="Arial, 'PingFang SC', sans-serif">
+    <rect x="92" y="158" width="776" height="260" rx="16" fill="#f8fafc" stroke="#cbd5e1"/>
+    <rect x="92" y="158" width="776" height="54" rx="16" fill="#e0f2fe" stroke="#bae6fd"/>
+    <text x="122" y="192" font-size="17" font-weight="700" fill="#075985">主题：银行秋招今日提醒摘要｜2026-06-16</text>
+    <text x="122" y="244" font-size="16" fill="#334155">你好，今天需要优先处理 3 类事项：</text>
+    <text x="122" y="282" font-size="15" fill="#475569">1. 建设银行上海分行：剩余 3 天，完成网申并确认基层轮岗比例。</text>
+    <text x="122" y="316" font-size="15" fill="#475569">2. 上海银行总行管培：核验公告原文和志愿规则，确认是否继续主攻。</text>
+    <text x="122" y="350" font-size="15" fill="#475569">3. 交通银行金融市场方向：查官方笔试通知，社区题型仅作弱线索。</text>
+    <text x="122" y="386" font-size="15" fill="#64748b">建议回写：提醒状态=已生成摘要；下一动作=用户确认后更新。</text>
+    <rect x="92" y="444" width="246" height="34" rx="10" fill="#dcfce7" stroke="#bbf7d0"/>
+    <text x="116" y="466" font-size="15" fill="#166534">状态：仅草稿，不发送</text>
+    <rect x="362" y="444" width="246" height="34" rx="10" fill="#fff7ed" stroke="#fed7aa"/>
+    <text x="386" y="466" font-size="15" fill="#c2410c">需确认：是否同步外部提醒</text>
+  </g>
+</svg>
