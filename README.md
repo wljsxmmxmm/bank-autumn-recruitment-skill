@@ -20,6 +20,10 @@
   <img src="assets/showcase/00-workflow-overview.svg" alt="银行秋招 Skill 全流程示意图" width="820">
 </p>
 
+<p>
+  <img src="assets/showcase/xhs-cover.png" alt="银行秋招 Notion 工作台首图" width="420">
+</p>
+
 </div>
 
 投银行秋招最难的地方，往往不是“没有信息”，而是信息太碎、节奏太乱、判断太依赖经验：
@@ -119,7 +123,9 @@
 
 <div align="center">
 
-> 此处预留真实 Notion 工作台截图：总表、P0 主攻、本周处理、流程中、截止日历、提醒日历、结果复盘。
+<img src="assets/notion-showcase/pipeline-board.png" alt="Notion 银行秋招流程中看板" width="820">
+
+<p><sub>Notion 工作台：按投递状态分组，集中查看一面、二面、终面、体检、已投等流程节点。</sub></p>
 
 </div>
 
@@ -291,7 +297,13 @@ Skill 不把二手信息当结论。
 
 <div align="center">
 
-> 此处预留真实 Notion 总表与分视图截图。
+<img src="assets/notion-showcase/p0-table.png" alt="Notion 银行秋招 P0 主攻表格" width="820">
+
+<p><sub>P0 主攻视图：按优先级、银行类型、岗位方向、投递状态和下一动作维护。</sub></p>
+
+<img src="assets/notion-showcase/deadline-calendar-full.png" alt="Notion 银行秋招截止日历" width="820">
+
+<p><sub>截止日历：把投递截止、提醒、流程节点放进同一套节奏里。</sub></p>
 
 </div>
 
@@ -313,6 +325,12 @@ Skill 不把二手信息当结论。
 3. 流程线索巡检：已投、测评、笔试、面试、体检中的岗位。
 4. 周复盘：按状态汇总当前表，并给下周动作。
 ```
+
+<p align="center">
+  <img src="assets/notion-showcase/reminder-calendar.png" alt="Notion 银行秋招提醒日历" width="820">
+</p>
+
+<p align="center"><sub>提醒日历：只聚焦需要行动的岗位，避免每天被全量信息淹没。</sub></p>
 
 ### 7. 公告后网申陪跑
 
